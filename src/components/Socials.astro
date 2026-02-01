@@ -14,21 +14,29 @@ enum Type {
 	calendar = 'Calendar',
 	email = 'Email',
 	google = 'Google',
+	blog = 'Substack',
 }
 
 const socials = [
 	{
 		name: Type.email,
-		url: 'contact@kanishkamohan.com',
-		icon: 'assets/svg/icons/email.svg',
-		color: 'bg-lime-400',
+		url: 'mail@kanishkamohan.com',
+		icon: 'assets/svg/icons/email.png',
+		color: 'bg-red-400',
 	},
 
 	{
 		name: Type.calendar,
 		url: 'https://novacal.io/kanishka_mohan',
 		icon: 'assets/svg/icons/calendar.png',
-		color: 'bg-orange-400',
+		color: 'bg-yellow-400',
+	},
+
+	{
+		name: Type.blog,
+		url: '/blog',
+		icon: 'assets/svg/icons/blog.png',
+		color: 'bg-green-400',
 	},
 
 	{
@@ -42,7 +50,7 @@ const socials = [
 		name: Type.google,
 		url: 'https://google.com/search?q=Kanishka+Mohan',
 		icon: 'assets/svg/icons/google.png',
-		color: 'bg-pink-400',
+		color: 'bg-white-400',
 	},
 ];
 
